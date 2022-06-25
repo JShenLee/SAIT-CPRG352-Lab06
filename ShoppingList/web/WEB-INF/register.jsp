@@ -1,9 +1,3 @@
-<%-- 
-    Document   : register
-    Created on : Jun 24, 2022, 2:39:30 PM
-    Author     : julia
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,10 +7,10 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <form method="post" action="register" >
+        <form method="post" action="ShoppingList" >
             <label>Username: </label>
             <input type="text" name="username" value="">
-            <input type="submit" value="Register name">
+            <input type="submit" action ="register" value="Register name">
         </form>
     </body>
 </html>
